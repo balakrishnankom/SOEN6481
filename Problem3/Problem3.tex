@@ -1,0 +1,40 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{float}
+\title{Universal Parabolic Constant}
+
+\author{Balakrishnan Rajagopal (40075977) }
+\date{}
+\renewcommand{\baselinestretch}{1.15}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\usepackage[final]{pdfpages}
+
+
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage{pdfpages}
+\renewcommand{\headrulewidth}{0.1pt}
+\fancyhf{} 
+\renewcommand{\headrulewidth}{0.1pt} 
+\fancyfoot[C]{\thepage} 
+\renewcommand{\footrulewidth}{0.1pt} 
+
+
+\begin{document}
+\maketitle
+
+\newpage
+\chapter{User Persona}
+\includepdf[pages=1]{Persona.pdf}
+\includepdf[pages=2]{Persona.pdf}
+
+
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
